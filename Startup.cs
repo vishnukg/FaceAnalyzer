@@ -39,6 +39,8 @@ namespace FaceDetectorApi
                         .AllowCredentials());
             });
 
+            services.AddApplicationInsightsTelemetry(Configuration);
+
             // Add framework services.
             services.AddMvc();
             services.AddScoped<IClientProxy, HttpClientProxy>();

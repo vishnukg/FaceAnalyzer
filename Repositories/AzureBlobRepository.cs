@@ -12,6 +12,8 @@ namespace FaceDetectorApi.Repositories
 
         public async Task<string> UploadFile(IFormFile file)
         {
+            if (file == null) throw new ArgumentNullException(nameof(file));
+
             var blobClient = AzureStorageClientProvider.GetBlobClient();
             var imagesContainer = blobClient.GetContainerReference(Container);
             
