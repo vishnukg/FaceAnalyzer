@@ -1,0 +1,9 @@
+C:\Users\vganesan\Documents\donetCore\FaceDetectorApi\bin\Release\netcoreapp1.1\FaceDetectorApi.deps.json
+C:\Users\vganesan\Documents\donetCore\FaceDetectorApi\bin\Release\netcoreapp1.1\FaceDetectorApi.runtimeconfig.json
+C:\Users\vganesan\Documents\donetCore\FaceDetectorApi\bin\Release\netcoreapp1.1\FaceDetectorApi.runtimeconfig.dev.json
+C:\Users\vganesan\Documents\donetCore\FaceDetectorApi\bin\Release\netcoreapp1.1\FaceDetectorApi.dll
+C:\Users\vganesan\Documents\donetCore\FaceDetectorApi\bin\Release\netcoreapp1.1\FaceDetectorApi.pdb
+C:\Users\vganesan\Documents\donetCore\FaceDetectorApi\obj\Release\netcoreapp1.1\FaceDetectorApi.AssemblyInfo.cs
+C:\Users\vganesan\Documents\donetCore\FaceDetectorApi\obj\Release\netcoreapp1.1\FaceDetectorApi.dll
+C:\Users\vganesan\Documents\donetCore\FaceDetectorApi\obj\Release\netcoreapp1.1\FaceDetectorApi.pdb
+C:\Users\vganesan\Documents\donetCore\FaceDetectorApi\obj\Release\netcoreapp1.1\FaceDetectorApi.csprojResolveAssemblyReference.cache
