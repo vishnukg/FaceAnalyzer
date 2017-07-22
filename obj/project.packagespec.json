@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/vishnu/Documents/DotNetPrac/FaceDetector_DNCore/FaceDetectorApi/FaceDetectorApi.csproj",
+    "projectUniqueName": "/Users/vishnu/Documents/CodePlay/C#/FaceAnalyzerApi/FaceDetectorApi.csproj",
     "projectName": "FaceDetectorApi",
-    "projectPath": "/Users/vishnu/Documents/DotNetPrac/FaceDetector_DNCore/FaceDetectorApi/FaceDetectorApi.csproj",
-    "outputPath": "/Users/vishnu/Documents/DotNetPrac/FaceDetector_DNCore/FaceDetectorApi/obj/",
+    "projectPath": "/Users/vishnu/Documents/CodePlay/C#/FaceAnalyzerApi/FaceDetectorApi.csproj",
+    "outputPath": "/Users/vishnu/Documents/CodePlay/C#/FaceAnalyzerApi/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp1.1"
@@ -22,6 +22,10 @@
           "target": "Package",
           "version": "1.1.1"
         },
+        "Microsoft.ApplicationInsights.AspNetCore": {
+          "target": "Package",
+          "version": "2.0.0"
+        },
         "Microsoft.AspNetCore": {
           "target": "Package",
           "version": "1.1.1"
@@ -29,6 +33,10 @@
         "Microsoft.AspNetCore.Mvc": {
           "target": "Package",
           "version": "1.1.2"
+        },
+        "Microsoft.Extensions.Configuration": {
+          "target": "Package",
+          "version": "1.1.1"
         },
         "Microsoft.Extensions.Logging.Debug": {
           "target": "Package",

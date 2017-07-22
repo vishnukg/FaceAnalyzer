@@ -17,6 +17,7 @@ namespace FaceDetectorApi
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
+                .UseUrls("http://*:8080")
                 .Build();
 
             host.Run();

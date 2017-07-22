@@ -32,7 +32,7 @@ namespace FaceDetectorApi.Controllers
                 try
                 {
                     var emotion = await this.faceAnalyzerService.DetectEmotion(file);
-                    return this.Ok($"You look {emotion}");
+                    return this.Ok($"You really look {emotion}");
                 }
                 catch (Exception exception)
                 {
