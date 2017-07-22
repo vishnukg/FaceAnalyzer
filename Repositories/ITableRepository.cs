@@ -7,6 +7,6 @@ namespace FaceDetectorApi.Repositories
     public interface ITableRepository
     {
         Task InsertFace(FaceInfo face);
-        Task<IEnumerable<FaceInfo>> GetAllFaces();
+        Task<IEnumerable<FaceDto>> GetAllFaces();
     }
 }

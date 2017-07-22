@@ -24,21 +24,21 @@ namespace FaceDetectorApi.Repositories
             await table.ExecuteAsync(insertOperation);
         }
 
-        public async Task<IEnumerable<FaceInfo>> GetAllFaces()
+        public async Task<IEnumerable<FaceDto>> GetAllFaces()
         {
             var tableClient = AzureStorageClientProvider.GetTableClient();
             var table = tableClient.GetTableReference(TableName);
             var query = new TableQuery<ImageEntity>().Where(TableQuery.GenerateFilterCondition("PartitionKey", QueryComparisons.Equal, "TeamHug2017"));
 
             TableContinuationToken token = null;
-            var faces = new List<FaceInfo>();
+            var faces = new List<FaceDto>();
             do
             {
                 var resultSegment = await table.ExecuteQuerySegmentedAsync(query, token);
                 token = resultSegment.ContinuationToken;       
                 foreach (var entity in resultSegment.Results)
                 {
-                    faces.Add(new FaceInfo() {Emotion = entity.Emotion, ImageFileName = entity.RowKey, ImageUrl = entity.ImageUrl});
+                    faces.Add(new FaceDto() {Emotion = entity.Emotion, ImageUrl = entity.ImageUrl});
                 }
             } while (token != null);
    
